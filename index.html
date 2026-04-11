@@ -4,7 +4,12 @@
     <title>Registeration Page</title>
     <style>
       button{
-        background-color:pink;
+        border-style:solid;
+        border-color:black;
+        border-radius:5px;
+        color:white;
+        background-color:green;
+        height:25px;
       }
     </style>
   </head>
@@ -31,8 +36,20 @@
     <b>Attachment:</b><input type="button" value="Choose Files" name="button">
     <input type="button" value="No file Choosen " name="button">
     <br><br>
-    <button><a href="https://asbdu45123054511802112025.github.io/Friendship-Zone4/">Register</a></button>
-    <button><a href="https://asbdu45123054511802112025.github.io/Friendship-Zone5/">Register as Admin</a></button>
+    <button onclick="goToNextPage()">Register</button>
+    <script>
+      function goToNextPage()
+      {
+        window.location.href="https://asbdu45123054511802112025.github.io/Friendship-Zone4/";
+      }
+    </script>
+    <button onclick="goToNextPage()">Register as Admin</button>
+    <script>
+      function goToNextPage()
+      {
+        windoe.location.href="https://asbdu45123054511802112025.github.io/Friendship-Zone5/";
+      }
+    </script>
     
     
     
